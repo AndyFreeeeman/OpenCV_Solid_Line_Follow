@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -91,24 +85,7 @@ while(cap.isOpened()):
     cv2.imshow('result', original_image)
 
     if cv2.waitKey(1) & 0xFF == ord('0'):
-        break
-        
-    
-
-        
+        break  
 
 cap.release()
 cv2.destroyAllWindows()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
